@@ -1,0 +1,98 @@
+html {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 0;
+}
+
+header {
+  display: flex;
+  color: #4a4a4a;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 64px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem ;
+  color: #4a4a4a;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 64px;
+}
+.logo h1 span {
+  font-weight: lighter;
+  color: #9c9c9c;
+}
+
+nav span a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #4c4c4c;
+  font-weight: 500;
+  align-items: center;
+}
+
+.panner {
+  display: flex;
+  width: 100%;
+  justify-items: start;
+  background-color: #d8d8d8;
+  margin: 0 auto;
+  color: #4c4c4c;
+}
+.panner img {
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.panner .title {
+  margin: auto;
+  padding: 50px 50px;
+  font-size: large;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.title button {
+  background-color: #4a4a4a;
+  color: white;
+  width:100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  justify-items: center;
+  border: none;
+  font-size: large;
+}
+
+.practicing {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.practicing .intro {
+  margin: 32px 24px;
+  max-width: 60%;
+  
+}
+.practicing p {
+  margin-top: 24px;
+
+}
+.practicing blockquote {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.boxes {
+  margin-top: 20px;
+  width: 40%;
+}
