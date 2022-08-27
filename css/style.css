@@ -4,7 +4,8 @@ html {
   margin: 0 0;
 }
 
-header {
+
+.header {
   display: flex;
   color: #4a4a4a;
   margin-left: 24px;
@@ -17,6 +18,10 @@ header {
 h1 {
   font-size: 3rem ;
   color: #4a4a4a;
+}
+h2 {
+  color:#4a4a4a;
+  font-size: 2rem;
 }
 
 .logo {
@@ -74,14 +79,17 @@ nav span a {
 
 .practicing {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
   
 }
 
 .practicing .intro {
   margin: 32px 24px;
-  max-width: 60%;
-  
+  width: 60%;
+}
+.practicing .intro img {
+ width: 100%;
+ 
 }
 .practicing p {
   margin-top: 24px;
@@ -93,6 +101,78 @@ nav span a {
 }
 
 .boxes {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
   width: 40%;
+  border-left: 1px solid #d8d8d8;
+  
 }
+.boxes .box {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.box img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px;
+}
+.box div {
+  width: 65%;
+  margin: 16px 16px;
+  align-items: center;
+}
+.box a {
+  color: #37B6EE;
+  text-decoration: none;
+}
+#our {
+  background-color: #d8d8d8;
+  margin-top: 0;
+}
+
+.MainCourses {
+  
+  background-color: #EAEBEC;
+  width: 100%;
+}
+
+.MainCourses h1 {
+  text-align: center;
+  padding-top: 32px;
+  
+}
+
+.row {
+  display: inline-flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin: 32px 72px;
+  align-items: center;
+}
+.row .square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  width: 30%;
+  height: auto;
+  
+}
+.square img {
+  height: auto;
+}
+.row .square  div {
+  
+  padding: 16px 32px;
+  align-content: flex-start;
+}
+.paracour {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
