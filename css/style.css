@@ -19,6 +19,11 @@ h1 {
   font-size: 3rem ;
   color: #4a4a4a;
 }
+#thesis {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 h2 {
   color:#4a4a4a;
   font-size: 2rem;
@@ -80,21 +85,24 @@ nav span a {
 .practicing {
   display: flex;
   width: 100%;
-  
 }
 
 .practicing .intro {
-  margin: 32px 24px;
+  margin: 0 24px;
   width: 60%;
 }
 .practicing .intro img {
  width: 100%;
  
 }
+.practicing .intro video {
+  width: 100%;
+}
 .practicing p {
   margin-top: 24px;
 
 }
+
 .practicing blockquote {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -176,3 +184,11 @@ nav span a {
   padding-bottom: 8px;
 }
 
+footer {
+  border-top:  1px solid #d8d8d8;
+}
+
+footer p {
+  padding-top:  16px;
+  padding-left: 24px ;
+}
